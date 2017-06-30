@@ -1,0 +1,6 @@
+#!/bin/bash
+
+date >> /home/pi/Documents/Speedtest/speedtest.log
+/home/pi/Documents/Speedtest/speedtest-ifttt.sh >> /home/pi/Documents/Speedtest/speedtest.log
+
+echo "" >> /home/pi/Documents/Speedtest/speedtest.log
